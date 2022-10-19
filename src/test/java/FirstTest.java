@@ -70,39 +70,39 @@ public class FirstTest extends BasePage {
         return $("//input[@placeholder='Email or mobile phone number']");
     }
 
-    public WebElement firstNameEnter(){
+    public WebElement firstNameEnter() {
         return $("//input[@placeholder='First name (optional)']");
     }
 
-    public WebElement lastNameEnter(){
+    public WebElement lastNameEnter() {
         return $("//input[@placeholder='Last name']");
     }
 
-    public WebElement addressEnter(){
+    public WebElement addressEnter() {
         return $("//input[@placeholder='Address']");
     }
 
-    public WebElement appatmentEnter(){
+    public WebElement appatmentEnter() {
         return $("//input[@placeholder='Apartment, suite, etc. (optional)']");
     }
 
-    public WebElement cityEnter(){
+    public WebElement cityEnter() {
         return $("//input[@placeholder='City']");
     }
 
-    public WebElement postCodeEnter(){
+    public WebElement postCodeEnter() {
         return $("//input[@placeholder='Postal code']");
     }
 
-    public WebElement continueShipping(){
+    public WebElement continueShipping() {
         return $("//button[@id='continue_button']");
     }
 
-    public WebElement choosePayment(){
+    public WebElement choosePayment() {
         return $("//input[@id='checkout_shipping_rate_id_usps-prioritymailinternational-58_26']");
     }
 
-    public WebElement verifyText(){
+    public WebElement verifyText() {
         return $("//div[@class='blank-slate']");
     }
 }
